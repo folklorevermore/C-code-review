@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	printf("bool size = %d\n", sizeof(bool));//1
+	printf("char size = %d\n", sizeof(char));//1
+	printf("short size = %d\n", sizeof(short));//2
+	printf("int size = %d\n", sizeof(int));//4
+	printf("float size = %d\n", sizeof(float));//4
+	printf("double size = %d\n", sizeof(double));//8
+	printf("long size = %d\n", sizeof(long));//4
+	printf("long long size = %d\n", sizeof(long long));//8
+}

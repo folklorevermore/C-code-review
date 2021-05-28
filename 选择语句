@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+	int choice = 0;
+	printf("你决定重新做人吗？(选择1 or 0):>");
+	scanf("%d", &choice); 
+	if (choice == 1)
+	{
+		printf("下定决心，拿好offer，迎娶帅哥\n");
+	}
+	else
+	{
+		printf("一秒放弃，回家继承遗产，886\n");
+	}
+	return 0;
+}
